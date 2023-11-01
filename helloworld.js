@@ -6,3 +6,4 @@ var tax = 10;
 var takeHome = salary - tax;
 console.log(salary)
 console.log(takeHome)
+//my name is saabir
