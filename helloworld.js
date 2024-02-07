@@ -119,8 +119,91 @@
 
 // console.log(sum);
 
-let students = ["Ahmed", "Mohammed", "Ali"];
-// students.push("Farah"); push adds an element to the end of the array
-// students.pop(); pop removes the element at the end of the array
-// let whichGotRemoved = students.shift() shift removes an element from an array and returns it
-console.log(students);
+// let students = ["Ahmed", "Mohammed", "Ali", "Maryam", "Hidaya"];
+// console.log(students.indexOf("Maryam"));
+// console.log(students.)
+// // students.push("Farah"); push adds an element to the end of the array
+// // students.pop(); pop removes the element at the end of the array
+// // students.reverse(); reverse changes the order of the array to its inverse
+// // let whichGotRemoved = students.shift() shift removes an element from an array and returns it
+// console.log(students);
+
+// students.forEach(function (theName) {
+//   console.log(theName);
+// });
+
+// let newArray = students.map(function (theName) {
+//   return theName + " is from Somalia";
+// }); //creating an array that "maps" the names of the student which creates a new array from calling a function for every array element
+
+// console.log(newArray);
+
+// function checkWordLength(word) {
+//   return word.length > 6;
+// }
+
+// const words = [
+//   "spray",
+//   "limit",
+//   "elite",
+//   "exuberant",
+//   "destruction",
+//   "pretend",
+// ];
+// const result = words.filter(checkWordLength);
+// console.log(result);
+
+// const payments = [20, 30, 50, 10];
+// const addTogether = function (accumulator, currentValue) {
+//   return accumulator + currentValue;
+// };
+
+// console.log(payments.reduce(addTogether));
+
+// let firstName = "Saabir";
+// let lastName = "Hussein";
+// let fullName = firstName.concat(" ").concat(lastName);
+// console.log(fullName);
+
+//for loop
+
+// for (let i = 0; i < 100; i++) {
+//   console.log(i + " hello");
+// }
+// console.log("");
+// for (let i = 20; i > 0; i--) {
+//   console.log("Hello");
+// }
+
+//while loop
+
+// let i = 0;
+// while (i < 20) {
+//   console.log("Hello");
+//   i++;
+// }
+
+//do..while loop
+
+// let i = 50;
+// do {
+//   console.log("Hello");
+//   i++;
+// } while (i < 20);
+
+//for..in loop
+
+const car = {
+  fName: "John",
+  lName: "Doe",
+  age: 25,
+};
+
+for (let key in person) {
+  console.log(person[key]);
+}
+
+//for..off loop
+
+
+
