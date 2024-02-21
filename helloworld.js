@@ -193,17 +193,31 @@
 
 //for..in loop
 
-const car = {
-  fName: "John",
-  lName: "Doe",
-  age: 25,
-};
+// const car = {
+//   fName: "John",
+//   lName: "Doe",
+//   age: 25,
+// };
 
-for (let key in person) {
-  console.log(person[key]);
-}
+// for (let key in person) {
+//   console.log(person[key]);
+// }
 
 //for..off loop
+
+var person1 = {
+  firstName: "Saabir",
+  lastName: "Hussein",
+  age: "21",
+  isMarried: false,
+  city: "London",
+
+getFullName: function () {
+  return this.firstName + " " + this.lastName
+}
+}
+
+console.log(person1.getFullName())
 
 
 
